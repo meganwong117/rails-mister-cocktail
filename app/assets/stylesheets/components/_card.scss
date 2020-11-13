@@ -1,0 +1,18 @@
+.cocktail-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 500px;
+  background-image: url('https://images.unsplash.com/photo-1541546006121-5c3bc5e8c7b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1647&q=80');
+  background-size: cover;
+  background-position: center;
+  p {
+    color: #fff;
+    font-size: 28px;
+    margin: 0;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
